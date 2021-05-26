@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div label {
+  display: block;
+  margin-top: 20px;
+}
+
+.container > div textarea {
+  width: 400px;
+  resize: none;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.container .convert-btn {
+  width: 400px;
+  padding: 10px;
+}
